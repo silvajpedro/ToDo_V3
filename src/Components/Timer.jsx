@@ -6,7 +6,7 @@ import toque_relogio from "../assets/toque_relogio.mp3"
 export default function Timer() {
 
     const [tempo, setTempo] = useState({
-        minuto:0,
+        minuto:15,
         segundo:60
     })
 
